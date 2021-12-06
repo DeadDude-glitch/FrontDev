@@ -1,0 +1,56 @@
+﻿body {
+    background-color: #CDE780;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+header{
+    background-color: #59594A;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+p{
+    text-align:justify;
+}
+
+section{
+    float: left;
+    clear:left;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    clear:right;
+}
+
+footer{
+    background-color: #59594A;
+    clear:both;
+    align-content:center;
+    text-align:center;
+    padding: 20px 5px 10px 5px;
+    color: aliceblue;
+}
+
+.fcont{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    width:20%;
+}
+
+h4{
+    margin:0 0 5px 0;
+    padding:0;
+}
