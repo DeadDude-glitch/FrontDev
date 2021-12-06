@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />  <!-- encoding method -->
+    <title>Meat&Eat</title>
+    <meta name="Meet&Eat at Meat&Eat" content="Food-Restuarant services everywhere, BOOK NOW!" />
+    <meta name="author" content="Ahmed Mamdouh" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="D:\Ahmed\Coding\meat N eat\main.js"></script> <!-- implement javascript code -->
+</head>
+
+<!-- The Modal/Lightbox -->
+<section>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="img4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="img1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="img2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="img3.jpg" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls
+            <div class="column">
+                <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="happy times">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="great views">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Amazing experince">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="whatever u wish">
+            </div>
+                -->
+        </div>
+    </div>
+</section>
+
+<body>
+    <web-header class="web-header">
+        <div class=" web-header">
+            <h2>
+                <i><pre>Meat&Eat</pre></i>
+            </h2>
+        </div>
+
+        <div class="Hbutton">
+            <ul class="Hbutton">
+                <li class="Hbutton"><a href="index.html">Home</a></li>
+                <li class="Hbutton"><a href="about.html">About</a></li>
+                <li class="Hbutton"><a href="menu.html">Menu</a></li>
+            </ul>
+        </div>
+    </web-header>
+
+    <section class="top-part">
+        <div class="mid">
+            <img src="D:\Ahmed\Coding\meat N eat\img4.jpg"
+                 class="mid"
+                 onclick="openModal(); currentSlide(1);" />
+            <span class="mid">Restaurant Everywhere</span>
+        </div>
+
+        <div class="propval">
+            Your professionally delicious well cooked meal with a restaurant service will be
+            delivered to your location, Meat & Eat, a moving restaurant at your service.
+        </div>
+    </section>
+
+    <section class="contact">
+        <aside class="widgit">
+            <!--subscribe service-->
+            <h2>Subscribe to get the latest offers</h2>
+            <div>
+                <input type="text"
+                       placeholder="name"
+                       class="subs" />
+
+                <input type="email"
+                       placeholder="email"
+                       class="subs" />
+            </div>
+            <a class="subs-button" id="join">Subscribe</a>
+        </aside>
+
+        <aside class="widgit" id="connect">
+            <h2 class="widgit-label">Follow us on social media</h2>
+            <!--social media icons link-->
+            <div>
+                <i>
+                    <a class="fa fa-facebook-official"
+                       href=""></a>
+                </i>
+                <i>
+                    <a class="fa fa-instagram"
+                       href=""></a>
+                </i>
+                <i>
+                    <a class="fa fa-snapchat"
+                       href=""></a>
+                </i>
+                <i>
+                    <a class="fa fa-pinterest-p"
+                       href=""></a>
+                </i>
+                <i>
+                    <a class="fa fa-twitter"
+                       href=""></a>
+                </i>
+                <i>
+                    <a class="fa fa-linkedin"
+                       href=""></a>
+                </i>
+            </div>
+        </aside>
+    </section>
+
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="mailto:ahmed.ussef248@gmail.com"
+                       target="_blank"
+                       id="contact">
+                        <b>contact us</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1Gc7dNL0q8NmD4jIYaL52iAr_6JC1tJ0G/view?usp=sharing"
+                       target="_blank"
+                       id="info">
+                        <b>about us</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script src="D:\Ahmed\Coding\meat N eat\main.js"></script>
+    </footer>
+</body>
+</html>
